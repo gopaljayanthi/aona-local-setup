@@ -198,7 +198,7 @@ metadata:
   annotations:
     {}
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     heritage: "Helm"
     release: "elk"
@@ -246,7 +246,7 @@ metadata:
     release: "elk"
     heritage: Helm
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - port: 5601
       protocol: TCP
