@@ -38,7 +38,7 @@ spec:
         release: isd411
     spec:
       containers:
-        - image: quay.io/opsmxpublic/ubi8-oes-audit-client:v4.1.2-rc4
+        - image: docker.io/opsmx11/oes-audit-client:smallimage-5eaea75-97
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3
