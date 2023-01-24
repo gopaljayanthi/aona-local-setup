@@ -38,7 +38,7 @@ spec:
         release: isd411
     spec:
       containers:
-        - image: quay.io/opsmxpublic/ubi8-oes-sapor:v4.1.2-rc5
+        - image: docker.io/opsmx11/sapor:smallimage-4f7ccc593bdb5f1d647ef3f80ce3acc2173faf77-99
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 10
